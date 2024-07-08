@@ -10,5 +10,6 @@ public class hm_08 {
         System.out.print("輸入城市:");
         String s3=scn.next();
         System.out.println(s1+","+s2+","+s3);
+        scn.close();
     }
 }
