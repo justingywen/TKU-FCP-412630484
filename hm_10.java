@@ -1,11 +1,11 @@
-import java.util.Scanner;
-
 public class hm_10 {
     public static void main(String[] args) {
-        Scanner scn=new Scanner(System.in);
-        System.out.print("輸入華氏溫度:");
-        int F=scn.nextInt();
-        System.out.println("攝氏溫度:"+(F-32)*5/9);
-        scn.close();
+        int sum=0;
+        int arr[]={1,2,3,4,5,6,7,8,9,10};
+
+        for(int i=0;i<arr.length;i++){
+            sum+=arr[i];
+        }
+        System.out.println(sum);
     }
 }
